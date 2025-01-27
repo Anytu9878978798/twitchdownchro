@@ -1,0 +1,142 @@
+.bAfduc,.pqFci{
+  position: relative;
+}
+.downloadBtn{
+  display: block;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: #9147ff;
+  color: rgba(255, 255, 255, 100);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.clip-details-btn,.vod-details-btn{
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: #9147ff;
+  color: rgba(255, 255, 255, 100);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Roboto;
+}
+.downloadBtn:hover,
+.detailDownloadBtn:hover,
+.searchBtn:hover,
+.clip-details-btn:hover,
+.vod-details-btn:hover{
+  background-color: #8944f0;
+}
+.detailDownloadBtn{
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 121px;
+height: 30px;
+line-height: 30px;
+border-radius: 4px;
+background-color: #9147ff;
+color: rgba(255, 255, 255, 100);
+font-size: 12px;
+text-align: center;
+font-family: Roboto;
+}
+
+.vodDetailDownload{
+  position: static;
+  margin-right: 20px;
+}
+
+.vodDetailDownload.notFoundButton{
+  cursor: not-allowed;
+  background-color: #ccc;
+  position: relative;
+  left: 0;
+}
+.vodDetailDownload.notFoundButton:hover::after{
+  display: block;
+}
+.notFoundButton::after{
+  position: absolute;
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+  top: 45px;
+    border: 1px solid #ccc;
+    width: 289px;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 4px;
+    /* padding: 10px 20px; */
+    content: 'This video does not support download!';
+}
+
+
+.search-result-card[data-a-target = 'search-result-video']{
+  position: relative;
+}
+ .searchBtn{
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 121px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: #9147ff;
+  color: rgba(255, 255, 255, 100);
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto;
+}
+.twitch-ai-circle {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #6435D1;
+    position: absolute;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitchAiLogo {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    transition: transform 1s,opacity 1s;
+    opacity: 1;
+}
+.twitch-ai-close {
+    position: absolute;
+    top: -5px;
+    font-size: 15px;
+    right: -10px;
+    cursor: pointer;
+    display: block;
+    z-index: 999999;
+    border: 1px solid;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    color: #8651EC;
+    border-radius: 9px;
+    line-height: 13px;
+}
